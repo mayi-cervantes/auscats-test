@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<h1> {{ THINGS }} Hello Flask, nice to meet you! </h1>
+		<div class="feature-wrap">
+        	<i class="fa fa-heart" height="50%"></i>
+			<b>Name:</b> {{ user['name'] }}<br>
+			<b>OrgUnit:</b> {{ user['orgunit'] }}<br>
+			<b>Favourite Cat:</b> {{ user['cat'] }}<br>
+            <h2> {{ THINGS }} Lorem ipsum dolor sit amet, consectetur adipisicing elit</h2>
+        </div>
+{% endblock %}
